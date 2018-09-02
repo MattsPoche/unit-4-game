@@ -1,1 +1,94 @@
-ECHO is on.
+body{
+    background: url(../images/circles-dark.png);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.clearfix{
+    overflow: scroll;
+}
+.content{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.information{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    background-color: bisque;
+    color: darkgreen;
+    height: auto;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.gemBar{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.gemImg{
+    width: 80px;
+    height: 80px;
+}
+.gem{
+    display:inline-block;
+    border: 2px inset transparent;
+    opacity: 1;
+}
+.gem:hover{
+    opacity: 0.6;
+}
+.gem:active{
+    opacity: 1;
+    filter: invert(100%);
+}
+.title{
+    color: aliceblue;
+    background-color: chocolate;
+    width: 225px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.statusBar{
+    display: inline-flex;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.winsAndLosses{
+    display: inline-block;
+    float: none;
+    width: 70px;
+    height: 50px;
+    background-color: aqua;
+    text-align: end;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+#goal{
+    display: inline-block;
+    float: none;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+#score{
+    display: inline-block;
+    float: none;
+    width: 200px;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: limegreen;
+}
